@@ -23,7 +23,7 @@
 >
 > This file is downloaded directly from the Google developers Console. To make the process more straightforwarded, it is documented here:
 >
-1. Log into the Google demoelopers Console and select a project.
+1. Log into the Google developer's Console and select a project.
 >
 1. The API Manager view should be selected, click on "Credentials" on the left, then "Create credentials", and finally "Service account key".
 >

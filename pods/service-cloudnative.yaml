@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hugocn
+  labels:
+    app: hugocn
+spec:
+  selector:
+    app: hugocn
+    tier: web
+  ports:
+  - port: 80
+    targetPort: 80
+  type: LoadBalancer
+  loadBalancerIP: "xx.yyy.zz.aaa"

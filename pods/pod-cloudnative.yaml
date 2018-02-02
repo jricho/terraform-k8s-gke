@@ -1,0 +1,18 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: hugocn
+  labels:
+    app: hugocn
+spec:
+  template:
+    metadata:
+      labels:
+        app: hugocn
+        tier: web
+    spec:
+      containers:
+      - name: hugocn
+        image: asia.gcr.io/demo-kube/hugocn:v1.3
+        ports:
+        - containerPort: 80

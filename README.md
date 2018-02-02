@@ -10,7 +10,7 @@
 
 > **app-engine-python**  ```gcloud components install app-engine-python```
 >
-> **kubectl** ```gcloud components install app-engine-python```
+> **kubectl** ```gcloud components install kubectl```
 >
 
 ### Install Terraform
